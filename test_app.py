@@ -1,7 +1,7 @@
 import pytest
 import sys
-sys.path.append('C:\\Desktop\\package\\package-management')
-from sources.app import app 
+#sys.path.append('C:\\Desktop\\package\\package-management')
+from app import app 
 
 @pytest.fixture
 def client():
